@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="752,1167" id="edu.gui" metadata="uml2-1.0" initialized="true" scrolledX="36" tag="1000" key="32303034313032362050726F796563746F204369656E6369617320492F43616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" name="DialogoInsertar" location="225,400" size="140,121" id="edu.gui/DialogoInsertar">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DialogoInsertar" id="edu.gui/DialogoInsertar#DialogoInsertar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="edu.gui/DialogoInsertar#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="edu.gui/DialogoInsertar#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="edu.gui/DialogoInsertar#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DialogoEliminar" location="30,400" size="145,121" id="edu.gui/DialogoEliminar">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DialogoEliminar" location="58,39" id="edu.gui/DialogoEliminar#DialogoEliminar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="edu.gui/DialogoEliminar#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="edu.gui/DialogoEliminar#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="edu.gui/DialogoEliminar#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="HojaCalculo" location="50,50" size="274,283" id="edu.gui/HojaCalculo">
+    <children xsi:type="editmodel:CompartmentEditModel" size="251,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="cANTIDAD_COLUMNAS" id="edu.gui/HojaCalculo#cANTIDAD_COLUMNAS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cANTIDAD_FILAS" id="edu.gui/HojaCalculo#cANTIDAD_FILAS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="constructor" id="edu.gui/HojaCalculo#constructor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="seleccionadorArchivos" id="edu.gui/HojaCalculo#seleccionadorArchivos"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,162">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstancia" id="edu.gui/HojaCalculo#getInstancia()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="edu.gui/HojaCalculo#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowActivated" id="edu.gui/HojaCalculo#windowActivated(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosed" id="edu.gui/HojaCalculo#windowClosed(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="edu.gui/HojaCalculo#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowDeactivated" id="edu.gui/HojaCalculo#windowDeactivated(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowDeiconified" id="edu.gui/HojaCalculo#windowDeiconified(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowIconified" id="edu.gui/HojaCalculo#windowIconified(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowOpened" id="edu.gui/HojaCalculo#windowOpened(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="edu.gui/HojaCalculo->edu.dat/SeleccionadorArchivos" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="42,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="edu.gui/HojaCalculo->edu.log.builder/ConstructorAbstracto" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="42,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,201" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="edu.gui/HojaCalculo->edu.log.builder/MenuPrincipal" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="49,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,273" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="SeleccionadorArchivos" location="483,50" size="249,121" id="edu.dat/SeleccionadorArchivos">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="archivoActual" id="edu.dat/SeleccionadorArchivos#archivoActual"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,54">
+      <children xsi:type="editmodel:MethodEditModel" name="abrirArchivo" id="edu.dat/SeleccionadorArchivos#abrirArchivo(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardar" id="edu.dat/SeleccionadorArchivos#guardar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardarArchivo" id="edu.dat/SeleccionadorArchivos#guardarArchivo(Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="edu.dat/SeleccionadorArchivos->edu.gui/HojaCalculo" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="49,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,60"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.7/@sourceConnections.0" name="ConstructorAbstracto" location="701,230" size="287,43" stereotype="interface" id="edu.log.builder/ConstructorAbstracto">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="MenuPrincipal" location="430,332" size="248,85" id="edu.log.builder/MenuPrincipal">
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="salirItem" id="edu.log.builder/MenuPrincipal#salirItem"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,18">
+      <children xsi:type="editmodel:MethodEditModel" name="MenuPrincipal" id="edu.log.builder/MenuPrincipal#MenuPrincipal()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.log.builder/ConstructorAbstracto&lt;-edu.log.builder/MenuPrincipal" source="//@children.5" target="//@children.7/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="233,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-319,15"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BarraHerramientas" location="1060,332" size="276,67" id="edu.log.builder/BarraHerramientas">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BarraHerramientas" id="edu.log.builder/BarraHerramientas#BarraHerramientas()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="edu.log.builder/ConstructorAbstracto&lt;-edu.log.builder/BarraHerramientas" source="//@children.6" target="//@children.7/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-303,25"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PanelHojaCalculo" location="710,332" size="270,193" id="edu.log.builder/PanelHojaCalculo">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="tabla" id="edu.log.builder/PanelHojaCalculo#tabla"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,126">
+      <children xsi:type="editmodel:MethodEditModel" name="PanelHojaCalculo" id="edu.log.builder/PanelHojaCalculo#PanelHojaCalculo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="eliminarColumnas" id="edu.log.builder/PanelHojaCalculo#eliminarColumnas(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="eliminarFilas" id="edu.log.builder/PanelHojaCalculo#eliminarFilas(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllDataFromModel" id="edu.log.builder/PanelHojaCalculo#getAllDataFromModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertarColumnas" id="edu.log.builder/PanelHojaCalculo#insertarColumnas(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertarFilas" id="edu.log.builder/PanelHojaCalculo#insertarFilas(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAllDataToModel" id="edu.log.builder/PanelHojaCalculo#setAllDataToModel([[Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.5/@sourceConnections.0" id="edu.log.builder/ConstructorAbstracto&lt;-edu.log.builder/PanelHojaCalculo" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,43" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

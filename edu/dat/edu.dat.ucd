@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="576,398" id="edu.dat" metadata="uml2-1.0" initialized="true" tag="1000" key="32303034313032362050726F796563746F204369656E6369617320492F43616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" name="ModeloFilasTabla" location="290,160" size="156,67" id="edu.dat/ModeloFilasTabla" runTimeClassModel="addColumn(Ljavax.swing.table.TableColumn;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="addColumn" id="edu.dat/ModeloFilasTabla#addColumn(Ljavax.swing.table.TableColumn;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ModeloColumnasTabla" location="290,260" size="189,67" id="edu.dat/ModeloColumnasTabla" runTimeClassModel="addColumn(Ljavax.swing.table.TableColumn;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="addColumn" id="edu.dat/ModeloColumnasTabla#addColumn(Ljavax.swing.table.TableColumn;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SeleccionadorArchivos" location="40,290" size="189,121" id="edu.dat/SeleccionadorArchivos" runTimeClassModel="archivoActual,abrirArchivo(Ljava.io.File;),guardar(),guardarArchivo(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="archivoActual" id="edu.dat/SeleccionadorArchivos#archivoActual"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,54">
+      <children xsi:type="editmodel:MethodEditModel" name="abrirArchivo" id="edu.dat/SeleccionadorArchivos#abrirArchivo(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardar" id="edu.dat/SeleccionadorArchivos#guardar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardarArchivo" id="edu.dat/SeleccionadorArchivos#guardarArchivo(Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ModeloTabla" location="69,50" size="132,211" id="edu.dat/ModeloTabla" runTimeClassModel="getColumnName(I),setAllData([[Ljava.lang.String;),ModeloTabla(),getAllData(),setValueAt(Ljava.lang.Object;II),getValueAt(II),getRowCount(),getColumnCount(),isCellEditable(II)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,162">
+      <children xsi:type="editmodel:MethodEditModel" name="ModeloTabla" id="edu.dat/ModeloTabla#ModeloTabla()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllData" id="edu.dat/ModeloTabla#getAllData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="edu.dat/ModeloTabla#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="edu.dat/ModeloTabla#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="edu.dat/ModeloTabla#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="edu.dat/ModeloTabla#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCellEditable" id="edu.dat/ModeloTabla#isCellEditable(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAllData" id="edu.dat/ModeloTabla#setAllData([[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValueAt" id="edu.dat/ModeloTabla#setValueAt(Ljava.lang.Object;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FiltroArchivo" location="290,50" size="124,85" id="edu.dat/FiltroArchivo">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,36">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="edu.dat/FiltroArchivo#accept(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="edu.dat/FiltroArchivo#getDescription()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
